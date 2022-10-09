@@ -124,7 +124,7 @@ begin
     }
 
     WAAH.AudioRecorder.startRecording();
-    document.getElementById('btnExport').innerHTML = '<i class="fa-solid fa-bullseye text-danger fa-beat-fade fa-3x"></i>';
+    document.getElementById('btnExport').innerHTML = '<i class="fa-solid fa-bullseye text-danger fa-beat-fade fa-3x pe-none"></i>';
 
     for (var i = 0; i < rows.length; i++) {
       var ABSN = new AudioBufferSourceNode(WAAH.AudioCtx);

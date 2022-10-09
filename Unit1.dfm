@@ -81,7 +81,6 @@ object Form1: TForm1
           ShowHint = True
           WidthStyle = ssAuto
           WidthPercent = 100.000000000000000000
-          ExplicitLeft = 148
         end
         object btnLoadProject: TWebButton
           AlignWithMargins = True
@@ -105,7 +104,6 @@ object Form1: TForm1
           ShowHint = True
           WidthStyle = ssAuto
           WidthPercent = 100.000000000000000000
-          ExplicitLeft = 78
         end
         object WebButton4: TWebButton
           AlignWithMargins = True
@@ -153,7 +151,6 @@ object Form1: TForm1
           WidthStyle = ssAuto
           WidthPercent = 100.000000000000000000
           OnClick = btnResetClick
-          ExplicitLeft = 316
         end
       end
       object WebHTMLDiv2: TWebHTMLDiv
@@ -170,11 +167,11 @@ object Form1: TForm1
         Role = ''
         object btnPlay: TWebButton
           AlignWithMargins = True
-          Left = 292
+          Left = 293
           Top = 8
-          Width = 76
+          Width = 75
           Height = 64
-          Hint = 'Upload Project'
+          Hint = 'Play / Pause'
           Margins.Left = 0
           Margins.Top = 8
           Margins.Right = 8
@@ -185,12 +182,11 @@ object Form1: TForm1
           ElementClassName = 'btn btn-dark text-white'
           ElementID = 'btnPlay'
           ElementFont = efCSS
-          HeightStyle = ssAuto
           HeightPercent = 100.000000000000000000
           ShowHint = True
           WidthPercent = 100.000000000000000000
           OnClick = btnPlayClick
-          ExplicitLeft = 322
+          ExplicitLeft = 292
         end
         object divMasterVolumeHolder: TWebHTMLDiv
           Left = 37
@@ -275,28 +271,28 @@ object Form1: TForm1
         end
         object btnExport: TWebButton
           AlignWithMargins = True
-          Left = 238
+          Left = 218
           Top = 8
-          Width = 54
+          Width = 75
           Height = 64
-          Hint = 'Export MP3'
+          Hint = 'Export Audio File'
           Margins.Left = 0
           Margins.Top = 8
           Margins.Right = 0
           Margins.Bottom = 8
           Align = alRight
-          Caption = '<i class="fa-solid fa-bullseye fa-3x"></i>'
+          Caption = 
+            '<i class="fa-solid fa-bullseye text-secondary fa-3x pe-none"></i' +
+            '>'
           ChildOrder = 3
-          ElementClassName = 'btn btn-dark text-white'
+          ElementClassName = 'btn btn-dark'
           ElementID = 'btnExport'
           ElementFont = efCSS
-          HeightStyle = ssAuto
           HeightPercent = 100.000000000000000000
           ShowHint = True
-          WidthStyle = ssAuto
           WidthPercent = 100.000000000000000000
           OnClick = btnExportClick
-          ExplicitLeft = 78
+          ExplicitLeft = 238
         end
       end
     end
@@ -468,11 +464,10 @@ object Form1: TForm1
         ChildOrder = 2
         ElementFont = efCSS
         Role = ''
-        ExplicitTop = 0
         object labelZoom: TWebLabel
           Left = 205
           Top = 3
-          Width = 65
+          Width = 578
           Height = 18
           Caption = 'labelZoom'
           ElementLabelClassName = 'text-white'
@@ -485,9 +480,9 @@ object Form1: TForm1
           WidthPercent = 100.000000000000000000
         end
         object labelTime: TWebLabel
-          Left = 335
+          Left = 315
           Top = 30
-          Width = 587
+          Width = 607
           Height = 18
           Alignment = taRightJustify
           Caption = 'labelTime'
@@ -504,7 +499,7 @@ object Form1: TForm1
         object labelEditMode: TWebLabel
           Left = 10
           Top = 5
-          Width = 49
+          Width = 866
           Height = 18
           Caption = 'labelZoom'
           ElementLabelClassName = 'text-white'
@@ -632,7 +627,7 @@ object Form1: TForm1
           AlignWithMargins = True
           Left = 7
           Top = 1
-          Width = 110
+          Width = 87
           Height = 28
           Margins.Left = 7
           Margins.Top = 1
@@ -647,6 +642,7 @@ object Form1: TForm1
           HeightPercent = 100.000000000000000000
           Layout = tlCenter
           WidthPercent = 100.000000000000000000
+          ExplicitHeight = 18
         end
       end
       object divTimelineMiddle: TWebHTMLDiv
@@ -691,9 +687,9 @@ object Form1: TForm1
         Role = ''
         object divRemaining: TWebLabel
           AlignWithMargins = True
-          Left = 264
+          Left = 281
           Top = 1
-          Width = 104
+          Width = 87
           Height = 28
           Margins.Left = 0
           Margins.Top = 1
@@ -709,6 +705,7 @@ object Form1: TForm1
           HeightPercent = 100.000000000000000000
           Layout = tlCenter
           WidthPercent = 100.000000000000000000
+          ExplicitHeight = 18
         end
       end
     end
