@@ -186,7 +186,6 @@ object Form1: TForm1
           ShowHint = True
           WidthPercent = 100.000000000000000000
           OnClick = btnPlayClick
-          ExplicitLeft = 292
         end
         object divMasterVolumeHolder: TWebHTMLDiv
           Left = 37
@@ -292,7 +291,6 @@ object Form1: TForm1
           ShowHint = True
           WidthPercent = 100.000000000000000000
           OnClick = btnExportClick
-          ExplicitLeft = 238
         end
       end
     end
@@ -730,7 +728,7 @@ object Form1: TForm1
     Role = ''
   end
   object WebOpenDialogTracks: TWebOpenDialog
-    Accept = 'audio/*'
+    Accept = 'audio/*,.mp3,.wav'
     MultiFile = True
     OnGetFileAsArrayBuffer = WebOpenDialogTracksGetFileAsArrayBuffer
     Left = 57
