@@ -5,7 +5,7 @@ An example of using the Web Audio API in a TMS WEB Core project to build an audi
 [![Count Lines of Code](https://github.com/500Foods/TMS-WEB-Core-TrackEditor/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/TMS-WEB-Core-TrackEditor/actions/workflows/main.yml)
 <!--CLOC-START -->
 ```
-Last Updated at 2023-11-27 02:51:14 UTC
+Last Updated at 2023-12-24 05:06:56 UTC
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -15,9 +15,9 @@ CSS                              1             12              4             97
 HTML                             2             11             10             38
 YAML                             2              8             12             33
 JavaScript                       4              0              0             25
-Markdown                         1              1              2             20
+Markdown                         1              2              2             24
 -------------------------------------------------------------------------------
-SUM:                            15            258            667           1827
+SUM:                            15            259            667           1831
 -------------------------------------------------------------------------------
 ```
 <!--CLOC-END-->
